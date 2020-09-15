@@ -1,0 +1,18 @@
+{
+    "name": "Reverse-proxy",
+    "description": "Reverse proxy website by heroku",
+    "keywords": ["proxy"],
+    "env": {
+    	"PROXY_HOST": {
+            "description": "Reverse proxy host，have to write",
+            "value": "0"
+        },
+        "PASS_ORIGIN": {
+            "description": "Pass through host? false or true",
+            "value": "false"
+        }
+    },
+    "website": "https://github.com/wangchunin/reverse-proxy-heroku",
+    "repository": "https://github.com/wangchunin/reverse-proxy-heroku",
+    "stack": "container"
+}
