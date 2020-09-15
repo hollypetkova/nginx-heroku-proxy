@@ -5,10 +5,14 @@
     "env": {
     	"PROXY_HOST": {
             "description": "Reverse proxy host，have to write",
-            "value": "www.baidu.com"
+            "value": ""
+        },
+        "PASS_ORIGIN": {
+            "description": "Pass through host? false or true",
+            "value": "false"
         }
     },
-    "website": "https://github.com/wangchunin/nginx-heroku-proxy",
-    "repository": "https://github.com/wangchunin/nginx-heroku-proxy",
+    "website": "https://github.com/wangchunin/reverse-proxy-heroku",
+    "repository": "https://github.com/wangchunin/reverse-proxy-heroku",
     "stack": "container"
 }
